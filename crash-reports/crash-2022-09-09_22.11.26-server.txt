@@ -1,0 +1,251 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2022-09-09 22:11:26
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at java.base@18.0.2.1/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base@18.0.2.1/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base@18.0.2.1/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base@18.0.2.1/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+	at java.base@18.0.2.1/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+	at java.base@18.0.2.1/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+	at java.base@18.0.2.1/java.security.AccessController.executePrivileged(AccessController.java:807)
+	at java.base@18.0.2.1/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.base@18.0.2.1/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+	at java.base@18.0.2.1/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base@18.0.2.1/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at com.mojang.authlib.GameProfile.toString(GameProfile.java:105)
+	at java.base@18.0.2.1/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base@18.0.2.1/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@18.0.2.1/java.lang.invoke.LambdaForm$MH/0x0000000800cd0800.invoke(LambdaForm$MH)
+	at java.base@18.0.2.1/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
+	at ahb.e(SourceFile:161)
+	at ahb.a(SourceFile:156)
+	at qv.m(SourceFile:425)
+	at agy.c(SourceFile:196)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:886)
+	at afh.b(SourceFile:289)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:819)
+	at net.minecraft.server.MinecraftServer.v(SourceFile:665)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:257)
+	at net.minecraft.server.MinecraftServer$$Lambda$4469/0x00000008014325d8.run(Unknown Source)
+	at java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@18.0.2.1/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base@18.0.2.1/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base@18.0.2.1/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base@18.0.2.1/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+	at java.base@18.0.2.1/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+	at java.base@18.0.2.1/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+	at java.base@18.0.2.1/java.security.AccessController.executePrivileged(AccessController.java:807)
+	at java.base@18.0.2.1/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.base@18.0.2.1/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+	at java.base@18.0.2.1/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base@18.0.2.1/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at com.mojang.authlib.GameProfile.toString(GameProfile.java:105)
+	at java.base@18.0.2.1/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base@18.0.2.1/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@18.0.2.1/java.lang.invoke.LambdaForm$MH/0x0000000800cd0800.invoke(LambdaForm$MH)
+	at java.base@18.0.2.1/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
+	at ahb.e(SourceFile:161)
+	at ahb.a(SourceFile:156)
+	at qv.m(SourceFile:425)
+	at agy.c(SourceFile:196)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:886)
+	at afh.b(SourceFile:289)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:819)
+	at net.minecraft.server.MinecraftServer.v(SourceFile:665)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:257)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@18.0.2.1/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@18.0.2.1/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@18.0.2.1/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@444407d8
+	at java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@444407d8
+	at java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@18.0.2.1/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:183)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Attach Listener" daemon prio=5 Id=5 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=13 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=14 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@4a83f120
+	at java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@4a83f120
+	at java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@18.0.2.1/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+	at java.base@18.0.2.1/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"DestroyJavaVM" prio=5 Id=16 RUNNABLE
+
+
+"Timer hack thread" daemon prio=5 Id=21 TIMED_WAITING
+	at java.base@18.0.2.1/java.lang.Thread.sleep(Native Method)
+	at ad$9.run(SourceFile:849)
+
+
+"Server thread" prio=8 Id=33 RUNNABLE
+	at java.base@18.0.2.1/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base@18.0.2.1/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+	at java.base@18.0.2.1/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base@18.0.2.1/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+	at java.base@18.0.2.1/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+	at java.base@18.0.2.1/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+	at java.base@18.0.2.1/java.security.AccessController.executePrivileged(AccessController.java:807)
+	at java.base@18.0.2.1/java.security.AccessController.doPrivileged(AccessController.java:712)
+	...
+
+
+"Server console handler" daemon prio=8 Id=35 RUNNABLE (in native)
+	at java.base@18.0.2.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@18.0.2.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@18.0.2.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@18.0.2.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@6fa05773
+	at java.base@18.0.2.1/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270)
+	at java.base@18.0.2.1/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313)
+	at java.base@18.0.2.1/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+	-  locked java.io.InputStreamReader@3a7fb156
+	at java.base@18.0.2.1/java.io.InputStreamReader.read(InputStreamReader.java:176)
+	...
+
+
+"Netty Server IO #0" daemon prio=5 Id=36 RUNNABLE (in native)
+	at java.base@18.0.2.1/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@18.0.2.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+	at java.base@18.0.2.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@178b439d
+	-  locked sun.nio.ch.WEPollSelectorImpl@6b910454
+	at java.base@18.0.2.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	...
+
+
+"Server Watchdog" daemon prio=8 Id=41 RUNNABLE
+	at java.management@18.0.2.1/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@18.0.2.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@18.0.2.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at afk.run(SourceFile:47)
+	at java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+
+
+"Java2D Disposer" daemon prio=10 Id=42 WAITING on java.lang.ref.ReferenceQueue$Lock@667dd9a
+	at java.base@18.0.2.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@667dd9a
+	at java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@18.0.2.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.desktop@18.0.2.1/sun.java2d.Disposer.run(Disposer.java:145)
+	at java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Server IO #1" daemon prio=5 Id=66 RUNNABLE (in native)
+	at java.base@18.0.2.1/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@18.0.2.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+	at java.base@18.0.2.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@41553901
+	-  locked sun.nio.ch.WEPollSelectorImpl@c8f0d1d
+	at java.base@18.0.2.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	...
+
+
+"Netty Server IO #2" daemon prio=5 Id=70 RUNNABLE (in native)
+	at java.base@18.0.2.1/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@18.0.2.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+	at java.base@18.0.2.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@6fdf1b7c
+	-  locked sun.nio.ch.WEPollSelectorImpl@57ec8010
+	at java.base@18.0.2.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	...
+
+
+
+Stacktrace:
+	at afk.run(SourceFile:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 0, entities: 159,159,115,529,529,0,0 [minecraft:pig:37,minecraft:sheep:26,minecraft:cow:25,minecraft:chicken:20,minecraft:item:18], block_entities: 32 [minecraft:mob_spawner:24,minecraft:beehive:4,minecraft:furnace:3,minecraft:campfire:1], block_ticks: 5, fluid_ticks: 47, chunk_source: Chunks[S] W: 2209 E: 159,159,115,529,529,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 18.0.2.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 951179032 bytes (907 MiB) / 2617245696 bytes (2496 MiB) up to 8388608000 bytes (8000 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 5600X 6-Core Processor             
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.70
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Parsec Virtual Display Adapter
+	Graphics card #0 vendor: Parsec Cloud, Inc.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=0.38.0.0
+	Graphics card #1 name: NVIDIA GeForce RTX 3070
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x2488
+	Graphics card #1 versionInfo: DriverVersion=31.0.15.1694
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.60
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 3.60
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 37552.61
+	Virtual memory used (MB): 12947.04
+	Swap memory total (MB): 4864.00
+	Swap memory used (MB): 146.57
+	JVM Flags: 2 total; -Xmx8000M -Xms1024M
+	Server Running: false
+	Player Count: 0 / 50; []
+	Data Packs: vanilla, file/durability ping v1.1.2 (incompatible), file/silence mobs v1.1.2 (incompatible)
+	World Generation: Stable
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)

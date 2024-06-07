@@ -1,0 +1,136 @@
+---- Quilt Loader: Critial Error Report ----
+Date/Time: 2023/08/23 20:08:36.5659
+
+-- Error 1 --
+
+Unhandled Throwable!
+
+java.lang.ClassCastException: Cannot coerce loader value to a String
+	at org.quiltmc.loader.impl.metadata.qmj.JsonLoaderValue.asString(JsonLoaderValue.java:134)
+	at org.quiltmc.loader.impl.metadata.qmj.V1ModMetadataReader.readVersionSpecifier(V1ModMetadataReader.java:725)
+	at org.quiltmc.loader.impl.metadata.qmj.V1ModMetadataReader.readDependencyObject(V1ModMetadataReader.java:680)
+	at org.quiltmc.loader.impl.metadata.qmj.V1ModMetadataReader.readFields(V1ModMetadataReader.java:196)
+	at org.quiltmc.loader.impl.metadata.qmj.V1ModMetadataReader.read(V1ModMetadataReader.java:70)
+	at org.quiltmc.loader.impl.metadata.qmj.ModMetadataReader.read(ModMetadataReader.java:93)
+	at org.quiltmc.loader.impl.metadata.qmj.ModMetadataReader.read(ModMetadataReader.java:47)
+	at org.quiltmc.loader.impl.plugin.quilt.StandardQuiltPlugin.scan0(StandardQuiltPlugin.java:195)
+	at org.quiltmc.loader.impl.plugin.quilt.StandardQuiltPlugin.scanZip(StandardQuiltPlugin.java:178)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl.scanZip(QuiltPluginManagerImpl.java:1828)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl.scanModFile0(QuiltPluginManagerImpl.java:1766)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl.scanModFile(QuiltPluginManagerImpl.java:1716)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl$1.visitFile(QuiltPluginManagerImpl.java:1652)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl$1.visitFile(QuiltPluginManagerImpl.java:1548)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2811)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl.scanModFolder0(QuiltPluginManagerImpl.java:1548)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl.scanModFolder(QuiltPluginManagerImpl.java:1529)
+	at org.quiltmc.loader.impl.plugin.MainThreadTask$ScanModFolderTask.execute(MainThreadTask.java:42)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl.runSingleCycle(QuiltPluginManagerImpl.java:1114)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl.runInternal(QuiltPluginManagerImpl.java:1057)
+	at org.quiltmc.loader.impl.plugin.QuiltPluginManagerImpl.run(QuiltPluginManagerImpl.java:515)
+	at org.quiltmc.loader.impl.QuiltLoaderImpl.runPlugins(QuiltLoaderImpl.java:490)
+	at org.quiltmc.loader.impl.QuiltLoaderImpl.setup(QuiltLoaderImpl.java:271)
+	at org.quiltmc.loader.impl.QuiltLoaderImpl.load(QuiltLoaderImpl.java:263)
+	at org.quiltmc.loader.impl.launch.knot.Knot.init(Knot.java:147)
+	at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76)
+	at net.fabricmc.loader.launch.knot.KnotServer.main(KnotServer.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.quiltmc.loader.impl.launch.server.QuiltServerLauncher.main(QuiltServerLauncher.java:66)
+
+
+-- Plugin State --
+
+Cycle number = 1
+Cycle Step = START
+
+Loaded Plugins (2):
+ - 'quilt_loader' (Builtin)
+ - 'quilted_fabric_loader' (Builtin)
+
+
+
+
+-- Mod Table --
+
+| Mod                         | ID                         | Version            | Plugin                 | File(s)                                                                     | Sub-Files                                                       |
+|-----------------------------|----------------------------|--------------------|------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Fabric Resource Loader (v0) | fabric-resource-loader-v0  | 0.11.7+f7923f6d77  | quilted_fabric_loader  | <mods>/malilib-fabric-1.20.1-0.16.1.jar                                     | /META-INF/jars/fabric-resource-loader-v0-0.11.7+f7923f6d77.jar  |
+| MaLiLib                     | malilib                    | 0.16.1             | quilted_fabric_loader  | <mods>/malilib-fabric-1.20.1-0.16.1.jar                                     |                                                                 |
+| Minecraft                   | minecraft                  | 1.20               | quilt_loader           | <game>/.quilt/remappedJars/minecraft-1.20-0.18.10/server-intermediary.jar   |                                                                 |
+| OpenJDK 64-Bit Server VM    | java                       | 17                 | quilt_loader           | /usr/lib/jvm/java-17-openjdk-amd64                                          |                                                                 |
+| Quilt Loader                | quilt_loader               | 0.18.10            | quilt_loader           | <game>/libraries/org/quiltmc/quilt-loader/0.18.10/quilt-loader-0.18.10.jar  |                                                                 |
+| Quilt Loader                | quilt_loader               | 0.18.10            | quilt_loader           | <game>/libraries/org/quiltmc/quilt-loader/0.18.10/quilt-loader-0.18.10.jar  |                                                                 |
+| Servux                      | servux                     | 0.1.0              | quilted_fabric_loader  | <mods>/servux-fabric-1.20.0-0.1.0.jar                                       |                                                                 |
+|-----------------------------|----------------------------|--------------------|------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------|
+
+
+-- Mod Details --
+
+<game>/.quilt/remappedJars/minecraft-1.20-0.18.10/server-intermediary.jar:
+###############################
+#  Loaded by  'quilt_loader'  #
+#  Name     = 'Minecraft'     #
+#  ID       = 'minecraft'     #
+#  Version  = '1.20'          #
+#  LoadType = IF_REQUIRED     #
+#  Depends on 'java' [17, ∞)  #
+###############################
+
+<mods>/malilib-fabric-1.20.1-0.16.1.jar:
+#####################################################################
+#  Loaded by  'quilted_fabric_loader'                               #
+#  Name     = 'MaLiLib'                                             #
+#  ID       = 'malilib'                                             #
+#  Version  = '0.16.1'                                              #
+#  LoadType = IF_POSSIBLE                                           #
+#  Depends on 'minecraft' [1.20, 1.21)                              #
+#  Depends on 'fabric-resource-loader-v0' (-∞, ∞)                   #
+#                                                                   #
+#  Contained Jars (1):                                              #
+#                                                                   #
+#  /META-INF/jars/fabric-resource-loader-v0-0.11.7+f7923f6d77.jar:  #
+#  +--------------------------------------------+                   #
+#  |  Loaded by  'quilted_fabric_loader'        |                   #
+#  |  Name     = 'Fabric Resource Loader (v0)'  |                   #
+#  |  ID       = 'fabric-resource-loader-v0'    |                   #
+#  |  Version  = '0.11.7+f7923f6d77'            |                   #
+#  |  LoadType = IF_POSSIBLE                    |                   #
+#  |  Depends on 'fabricloader' [0.13.0, ∞)     |                   #
+#  +--------------------------------------------+                   #
+#                                                                   #
+#####################################################################
+
+<mods>/servux-fabric-1.20.0-0.1.0.jar:
+#########################################
+#  Loaded by  'quilted_fabric_loader'   #
+#  Name     = 'Servux'                  #
+#  ID       = 'servux'                  #
+#  Version  = '0.1.0'                   #
+#  LoadType = IF_POSSIBLE               #
+#  Depends on 'minecraft' [1.20, 1.21)  #
+#########################################
+
+<game>/libraries/org/quiltmc/quilt-loader/0.18.10/quilt-loader-0.18.10.jar:
+#######################################
+#  Loaded by  'quilt_loader'          #
+#  Name     = 'Quilt Loader'          #
+#  ID       = 'quilt_loader'          #
+#  Version  = '0.18.10'               #
+#  LoadType = IF_REQUIRED             #
+#  Provides   'fabricloader' 0.14.19  #
+#######################################
+
+/usr/lib/jvm/java-17-openjdk-amd64:
+###########################################
+#  Loaded by  'quilt_loader'              #
+#  Name     = 'OpenJDK 64-Bit Server VM'  #
+#  ID       = 'java'                      #
+#  Version  = '17'                        #
+#  LoadType = IF_REQUIRED                 #
+###########################################
+
+
+
+---- end of report ----

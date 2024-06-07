@@ -1,0 +1,32 @@
+[03:54:57] [main/INFO]: Loading Minecraft 1.20.6 with Fabric Loader 0.15.10
+[03:54:58] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.15.10
+	   \-- mixinextras 0.3.5
+	- java 21
+	- minecraft 1.20.6
+[03:54:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/ubuntu/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[03:55:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:55:11] [main/INFO]: Found non-pack entry '././worlds/Minecraftttt/datapacks/vanilla-refresh-1.4.18a.jar', ignoring
+[03:55:11] [main/INFO]: Found non-pack entry '././worlds/Minecraftttt/datapacks/craftable-invisibility-itemframe-1.1.jar', ignoring
+[03:55:16] [main/INFO]: Loaded 1175 recipes
+[03:55:16] [main/INFO]: Loaded 1276 advancements
+[03:55:17] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[03:55:17] [Server thread/INFO]: Loading properties
+[03:55:17] [Server thread/INFO]: Default game type: SURVIVAL
+[03:55:17] [Server thread/INFO]: Generating keypair
+[03:55:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:55:18] [Server thread/INFO]: Using epoll channel type
+[03:55:18] [Server thread/INFO]: Preparing level "./worlds/Minecraftttt"
+[03:55:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:55:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:55:33] [Server thread/INFO]: Time elapsed: 4897 ms
+[03:55:33] [Server thread/INFO]: Done (14.907s)! For help, type "help"

@@ -1,0 +1,51 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 2024-01-03 19:33:10
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:263)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.2
+	Minecraft Version ID: 1.20.2
+	Operating System: Linux (amd64) version 5.15.0-1044-aws
+	Java Version: 17.0.9, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 338906944 bytes (323 MiB) / 727711744 bytes (694 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+	Identifier: Intel64 Family 6 Model 79 Stepping 1
+	Microarchitecture: Broadwell (Server)
+	Frequency (GHz): 2.30
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 2
+	Graphics card #0 name: GD 5446
+	Graphics card #0 vendor: Cirrus Logic (0x1013)
+	Graphics card #0 VRAM (MB): 32.00
+	Graphics card #0 deviceId: 0x00b8
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MB): 10146.45
+	Virtual memory used (MB): 5684.28
+	Swap memory total (MB): 8192.00
+	Swap memory used (MB): 1964.21
+	JVM Flags: 1 total; -Xmx4G
+	Server Running: true
+	Data Packs: vanilla, file/durability ping v1.1.2 (incompatible), file/silence mobs v1.1.2 (incompatible), file/Dungeons and Taverns v3.1.0 (incompatible), file/Invisible-Item-Frame-Pack-16x-1.20 (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
