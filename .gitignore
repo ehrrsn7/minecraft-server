@@ -1,0 +1,27 @@
+# ignore all
+*
+
+# important directories (** if all files should be included, don't do this if directory generally contains binaries/non-critical files)
+!/config/**
+!/crash-reports
+!/libraries
+!/loaders
+!/logs
+!/mods
+!/versions
+!/worlds
+
+# important file types
+!*.json
+!*.properties
+
+# important files
+!/.gitignore
+!/eula.txt
+!/minecraft-server.service
+!/server.jar
+!/start.bat
+!/start.sh
+
+# 'always up' - if running on windows, this will help run the server as a service (todo: find out a way to run .bat files as a service using something like the SC command on windows AND save the config here)
+!/AlwaysUp_Installer.exe
