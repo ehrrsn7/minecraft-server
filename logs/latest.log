@@ -132,3 +132,26 @@
 [12:53:06] [Server thread/INFO]: swagmasterjames lost connection: Disconnected
 [12:53:06] [Server thread/INFO]: swagmasterjames left the game
 [12:53:06] [Server thread/INFO]: [voicechat] Disconnecting client swagmasterjames
+[15:07:26] [User Authenticator #3/INFO]: UUID of player swagmasterjames is 79297bcd-962f-4594-9588-5e5a5349c509
+[15:07:27] [Server thread/INFO]: swagmasterjames[/127.0.0.1:23244] logged in with entity id 4720 at (-1617.5216102356337, 154.0, -411.2424449689706)
+[15:07:27] [Server thread/INFO]: swagmasterjames joined the game
+[15:07:28] [Server thread/INFO]: [voicechat] Received secret request of swagmasterjames (18)
+[15:07:28] [Server thread/INFO]: [voicechat] Sent secret to swagmasterjames
+[15:07:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 79297bcd-962f-4594-9588-5e5a5349c509
+[15:07:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 79297bcd-962f-4594-9588-5e5a5349c509
+[15:07:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player swagmasterjames (79297bcd-962f-4594-9588-5e5a5349c509) successfully connected to voice chat
+[15:18:20] [Server thread/WARN]: swagmasterjames moved too quickly! 11.958718281562597,-2.326629739473674,13.547232095571598
+[15:22:25] [Server thread/INFO]: swagmasterjames lost connection: Disconnected
+[15:22:25] [Server thread/INFO]: swagmasterjames left the game
+[15:22:25] [Server thread/INFO]: [voicechat] Disconnecting client swagmasterjames
+[15:24:46] [User Authenticator #4/INFO]: UUID of player swagmasterjames is 79297bcd-962f-4594-9588-5e5a5349c509
+[15:24:46] [Server thread/INFO]: swagmasterjames[/127.0.0.1:24764] logged in with entity id 9138 at (89.25749845657137, 82.0, 883.9046877317123)
+[15:24:46] [Server thread/INFO]: swagmasterjames joined the game
+[15:24:47] [Server thread/INFO]: [voicechat] Received secret request of swagmasterjames (18)
+[15:24:47] [Server thread/INFO]: [voicechat] Sent secret to swagmasterjames
+[15:24:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 79297bcd-962f-4594-9588-5e5a5349c509
+[15:24:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 79297bcd-962f-4594-9588-5e5a5349c509
+[15:24:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player swagmasterjames (79297bcd-962f-4594-9588-5e5a5349c509) successfully connected to voice chat
+[16:01:56] [Server thread/INFO]: swagmasterjames lost connection: Disconnected
+[16:01:56] [Server thread/INFO]: swagmasterjames left the game
+[16:01:56] [Server thread/INFO]: [voicechat] Disconnecting client swagmasterjames
