@@ -1,157 +1,166 @@
-[11:52:03] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
-[11:52:03] [main/INFO]: Loading 58 mods:
-	- audioplayer 1.21-1.10.2
-	   |-- admiral 0.4.4+1.20.5
-	   |-- fabric-api-base 0.4.42+6573ed8c90
-	   |-- fabric-command-api-v2 2.2.27+6a6dfa1990
-	   \-- fabric-lifecycle-events-v1 2.3.9+98a7dbbb90
-	- chunky 1.4.14
-	- cloth-config 15.0.127
-	   \-- cloth-basic-math 0.6.1
-	- fabric-api 0.100.1+1.21
-	   |-- fabric-api-base 0.4.42+6573ed8c90
-	   |-- fabric-api-lookup-api-v1 1.6.65+b559734490
-	   |-- fabric-biome-api-v1 13.0.28+6fc22b9990
-	   |-- fabric-block-api-v1 1.0.22+0af3f5a790
-	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c90
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a790
-	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c90
-	   |-- fabric-command-api-v1 1.2.48+f71b366f90
-	   |-- fabric-command-api-v2 2.2.27+6a6dfa1990
-	   |-- fabric-commands-v0 0.2.65+df3654b390
-	   |-- fabric-content-registries-v0 8.0.11+b559734490
-	   |-- fabric-convention-tags-v1 2.0.12+7f945d5b90
-	   |-- fabric-convention-tags-v2 2.2.1+d153f34490
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a790
-	   |-- fabric-data-attachment-api-v1 1.1.22+6a6dfa1990
-	   |-- fabric-data-generation-api-v1 20.2.6+16c4ae2590
-	   |-- fabric-dimensions-v1 4.0.0+6fc22b9990
-	   |-- fabric-entity-events-v1 1.6.12+6fc22b9990
-	   |-- fabric-events-interaction-v0 0.7.10+e633f88390
-	   |-- fabric-game-rule-api-v1 1.0.52+6573ed8c90
-	   |-- fabric-item-api-v1 11.0.0+afdfc92190
-	   |-- fabric-item-group-api-v1 4.1.0+00ab0a6390
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
-	   |-- fabric-keybindings-v0 0.2.45+df3654b390
-	   |-- fabric-lifecycle-events-v1 2.3.9+98a7dbbb90
-	   |-- fabric-loot-api-v2 3.0.9+6573ed8c90
-	   |-- fabric-message-api-v1 6.0.13+6573ed8c90
-	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b90
-	   |-- fabric-networking-api-v1 4.1.0+686dcdce90
-	   |-- fabric-object-builder-api-v1 15.1.10+d132107690
-	   |-- fabric-particles-v1 4.0.2+6573ed8c90
-	   |-- fabric-recipe-api-v1 5.0.8+6573ed8c90
-	   |-- fabric-registry-sync-v0 5.0.21+b9828ba390
-	   |-- fabric-renderer-api-v1 3.2.16+fe474d6b90
-	   |-- fabric-renderer-indigo 1.6.3+cc9f121a90
-	   |-- fabric-renderer-registries-v1 3.2.66+df3654b390
-	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e90
-	   |-- fabric-rendering-fluids-v1 3.1.6+b559734490
-	   |-- fabric-rendering-v0 1.1.69+df3654b390
-	   |-- fabric-rendering-v1 5.0.3+d132107690
-	   |-- fabric-resource-conditions-api-v1 4.2.1+d153f34490
-	   |-- fabric-resource-loader-v0 1.1.3+b559734490
-	   |-- fabric-screen-api-v1 2.0.24+b559734490
-	   |-- fabric-screen-handler-api-v1 1.3.78+b559734490
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8c90
-	   |-- fabric-transfer-api-v1 5.1.12+b559734490
-	   \-- fabric-transitive-access-wideners-v1 6.0.12+6573ed8c90
-	- fabric-language-kotlin 1.11.0+kotlin.2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.0
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.24.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
-	- fabricloader 0.15.11
-	   \-- mixinextras 0.3.5
-	- java 22
-	- minecraft 1.21
-	- voicechat 1.21-2.5.16
-	   |-- fabric-api-base 0.4.42+6573ed8c90
-	   |-- fabric-command-api-v2 2.2.27+6a6dfa1990
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
-	   |-- fabric-lifecycle-events-v1 2.3.9+98a7dbbb90
-	   |-- fabric-networking-api-v1 4.1.0+686dcdce90
-	   \-- fabric-resource-loader-v0 1.1.3+b559734490
-[11:52:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/D:/.minecraft/server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[11:52:03] [main/INFO]: Compatibility level set to JAVA_17
-[11:52:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[11:52:09] [main/INFO]: [voicechat] Compatibility version 18
-[11:52:09] [main/INFO]: [voicechat] Loading plugins
-[11:52:09] [main/INFO]: [voicechat] Loaded 1 plugin(s)
-[11:52:09] [main/INFO]: [voicechat] Initializing plugins
-[11:52:09] [main/INFO]: [voicechat] Initialized 1 plugin(s)
-[11:52:09] [main/INFO]: [voicechat] Registering events for 'audioplayer'
-[11:52:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:52:09] [main/INFO]: Found non-pack entry '.\.\worlds\Minecraftttt\datapacks\vanilla-refresh-1.4.18a.jar', ignoring
-[11:52:09] [main/INFO]: Found non-pack entry '.\.\worlds\Minecraftttt\datapacks\craftable-invisibility-itemframe-1.1.jar', ignoring
-[11:52:10] [main/INFO]: Loaded 1290 recipes
-[11:52:10] [main/INFO]: Loaded 1399 advancements
-[11:52:10] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 911.6 μs
-[11:52:11] [Server thread/INFO]: Starting minecraft server version 1.21
-[11:52:11] [Server thread/INFO]: Loading properties
-[11:52:11] [Server thread/INFO]: Default game type: SURVIVAL
-[11:52:11] [Server thread/INFO]: Generating keypair
-[11:52:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:52:11] [Server thread/INFO]: Using default channel type
-[11:52:11] [Server thread/INFO]: Preparing level "./worlds/Minecraftttt"
-[11:52:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:52:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:52:12] [Server thread/INFO]: Time elapsed: 284 ms
-[11:52:12] [Server thread/INFO]: Done (1.065s)! For help, type "help"
-[11:52:12] [Server thread/INFO]: Starting GS4 status listener
-[11:52:12] [Server thread/INFO]: Thread Query Listener started
-[11:52:12] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[11:52:12] [Server thread/INFO]: Loading audio file name mappings...
-[11:52:12] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[11:55:37] [User Authenticator #1/INFO]: UUID of player swagmasterjames is 79297bcd-962f-4594-9588-5e5a5349c509
-[11:55:37] [Server thread/INFO]: swagmasterjames[/192.168.0.208:65165] logged in with entity id 60 at (-1708.6763207976005, 161.0, -408.28885562508697)
-[11:55:37] [Server thread/INFO]: swagmasterjames joined the game
-[11:55:38] [Server thread/INFO]: [voicechat] Received secret request of swagmasterjames (18)
-[11:55:38] [Server thread/INFO]: [voicechat] Sent secret to swagmasterjames
-[11:55:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 79297bcd-962f-4594-9588-5e5a5349c509
-[11:55:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 79297bcd-962f-4594-9588-5e5a5349c509
-[11:55:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player swagmasterjames (79297bcd-962f-4594-9588-5e5a5349c509) successfully connected to voice chat
-[12:02:51] [Server thread/INFO]: swagmasterjames lost connection: Disconnected
-[12:02:51] [Server thread/INFO]: swagmasterjames left the game
-[12:02:51] [Server thread/INFO]: [voicechat] Disconnecting client swagmasterjames
-[12:13:04] [User Authenticator #2/INFO]: UUID of player swagmasterjames is 79297bcd-962f-4594-9588-5e5a5349c509
-[12:13:04] [Server thread/INFO]: swagmasterjames[/192.168.0.208:49738] logged in with entity id 653 at (-1679.2096219182954, 161.0, -369.1110263767982)
-[12:13:04] [Server thread/INFO]: swagmasterjames joined the game
-[12:13:05] [Server thread/INFO]: [voicechat] Received secret request of swagmasterjames (18)
-[12:13:05] [Server thread/INFO]: [voicechat] Sent secret to swagmasterjames
-[12:13:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 79297bcd-962f-4594-9588-5e5a5349c509
-[12:13:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 79297bcd-962f-4594-9588-5e5a5349c509
-[12:13:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player swagmasterjames (79297bcd-962f-4594-9588-5e5a5349c509) successfully connected to voice chat
-[12:53:06] [Server thread/INFO]: swagmasterjames lost connection: Disconnected
-[12:53:06] [Server thread/INFO]: swagmasterjames left the game
-[12:53:06] [Server thread/INFO]: [voicechat] Disconnecting client swagmasterjames
-[15:07:26] [User Authenticator #3/INFO]: UUID of player swagmasterjames is 79297bcd-962f-4594-9588-5e5a5349c509
-[15:07:27] [Server thread/INFO]: swagmasterjames[/127.0.0.1:23244] logged in with entity id 4720 at (-1617.5216102356337, 154.0, -411.2424449689706)
-[15:07:27] [Server thread/INFO]: swagmasterjames joined the game
-[15:07:28] [Server thread/INFO]: [voicechat] Received secret request of swagmasterjames (18)
-[15:07:28] [Server thread/INFO]: [voicechat] Sent secret to swagmasterjames
-[15:07:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 79297bcd-962f-4594-9588-5e5a5349c509
-[15:07:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 79297bcd-962f-4594-9588-5e5a5349c509
-[15:07:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player swagmasterjames (79297bcd-962f-4594-9588-5e5a5349c509) successfully connected to voice chat
-[15:18:20] [Server thread/WARN]: swagmasterjames moved too quickly! 11.958718281562597,-2.326629739473674,13.547232095571598
-[15:22:25] [Server thread/INFO]: swagmasterjames lost connection: Disconnected
-[15:22:25] [Server thread/INFO]: swagmasterjames left the game
-[15:22:25] [Server thread/INFO]: [voicechat] Disconnecting client swagmasterjames
-[15:24:46] [User Authenticator #4/INFO]: UUID of player swagmasterjames is 79297bcd-962f-4594-9588-5e5a5349c509
-[15:24:46] [Server thread/INFO]: swagmasterjames[/127.0.0.1:24764] logged in with entity id 9138 at (89.25749845657137, 82.0, 883.9046877317123)
-[15:24:46] [Server thread/INFO]: swagmasterjames joined the game
-[15:24:47] [Server thread/INFO]: [voicechat] Received secret request of swagmasterjames (18)
-[15:24:47] [Server thread/INFO]: [voicechat] Sent secret to swagmasterjames
-[15:24:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 79297bcd-962f-4594-9588-5e5a5349c509
-[15:24:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 79297bcd-962f-4594-9588-5e5a5349c509
-[15:24:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player swagmasterjames (79297bcd-962f-4594-9588-5e5a5349c509) successfully connected to voice chat
-[16:01:56] [Server thread/INFO]: swagmasterjames lost connection: Disconnected
-[16:01:56] [Server thread/INFO]: swagmasterjames left the game
-[16:01:56] [Server thread/INFO]: [voicechat] Disconnecting client swagmasterjames
+[08:30:29] [main/INFO]: Loading Minecraft 1.21.2 with Fabric Loader 0.16.7
+[08:30:30] [main/INFO]: Loading 56 mods:
+	- fabric-api 0.106.1+1.21.2
+	   |-- fabric-api-base 0.4.48+c47b9d4373
+	   |-- fabric-api-lookup-api-v1 1.6.78+c47b9d4373
+	   |-- fabric-biome-api-v1 14.0.5+c47b9d4373
+	   |-- fabric-block-api-v1 1.0.28+c47b9d4373
+	   |-- fabric-block-view-api-v2 1.0.16+c47b9d4373
+	   |-- fabric-blockrenderlayer-v1 2.0.2+c47b9d4373
+	   |-- fabric-client-tags-api-v1 1.1.22+c47b9d4373
+	   |-- fabric-command-api-v1 1.2.56+f71b366f73
+	   |-- fabric-command-api-v2 2.2.35+c47b9d4373
+	   |-- fabric-commands-v0 0.2.73+df3654b373
+	   |-- fabric-content-registries-v0 9.1.5+c47b9d4373
+	   |-- fabric-convention-tags-v1 2.1.0+7f945d5b73
+	   |-- fabric-convention-tags-v2 2.9.0+c47b9d4373
+	   |-- fabric-crash-report-info-v1 0.3.3+c47b9d4373
+	   |-- fabric-data-attachment-api-v1 1.1.38+c47b9d4373
+	   |-- fabric-data-generation-api-v1 21.0.14+c47b9d4373
+	   |-- fabric-dimensions-v1 4.0.7+c47b9d4373
+	   |-- fabric-entity-events-v1 2.0.5+c47b9d4373
+	   |-- fabric-events-interaction-v0 2.0.9+c47b9d4373
+	   |-- fabric-game-rule-api-v1 1.0.59+c47b9d4373
+	   |-- fabric-item-api-v1 11.1.5+c47b9d4373
+	   |-- fabric-item-group-api-v1 4.1.15+e7c9ab6673
+	   |-- fabric-key-binding-api-v1 1.0.53+c47b9d4373
+	   |-- fabric-keybindings-v0 0.2.51+df3654b373
+	   |-- fabric-lifecycle-events-v1 2.3.22+c47b9d4373
+	   |-- fabric-loot-api-v2 3.0.24+3f89f5a573
+	   |-- fabric-loot-api-v3 1.0.12+c47b9d4373
+	   |-- fabric-message-api-v1 6.0.19+c47b9d4373
+	   |-- fabric-model-loading-api-v1 3.0.7+c47b9d4373
+	   |-- fabric-networking-api-v1 4.3.3+56ec7ac673
+	   |-- fabric-object-builder-api-v1 17.0.7+c47b9d4373
+	   |-- fabric-particles-v1 4.0.8+c47b9d4373
+	   |-- fabric-recipe-api-v1 7.0.2+c47b9d4373
+	   |-- fabric-registry-sync-v0 5.2.0+56ec7ac673
+	   |-- fabric-renderer-api-v1 4.0.3+c47b9d4373
+	   |-- fabric-renderer-indigo 1.9.3+c47b9d4373
+	   |-- fabric-rendering-data-attachment-v1 0.3.54+73761d2e73
+	   |-- fabric-rendering-fluids-v1 3.1.13+c47b9d4373
+	   |-- fabric-rendering-v0 1.1.81+df3654b373
+	   |-- fabric-rendering-v1 8.0.5+c47b9d4373
+	   |-- fabric-resource-conditions-api-v1 5.0.8+c47b9d4373
+	   |-- fabric-resource-loader-v0 3.0.5+c47b9d4373
+	   |-- fabric-screen-api-v1 2.0.32+c47b9d4373
+	   |-- fabric-screen-handler-api-v1 1.3.98+c47b9d4373
+	   |-- fabric-sound-api-v1 1.0.29+c47b9d4373
+	   |-- fabric-transfer-api-v1 5.4.0+c47b9d4373
+	   \-- fabric-transitive-access-wideners-v1 6.1.8+c47b9d4373
+	- fabric-language-kotlin 1.12.3+kotlin.2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3
+	- fabricloader 0.16.7
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21.2
+	- voicechat 1.21.2-2.5.24
+	   |-- fabric-api-base 0.4.48+c47b9d4373
+	   |-- fabric-command-api-v2 2.2.35+c47b9d4373
+	   |-- fabric-key-binding-api-v1 1.0.53+c47b9d4373
+	   |-- fabric-lifecycle-events-v1 2.3.22+c47b9d4373
+	   |-- fabric-networking-api-v1 4.3.3+56ec7ac673
+	   \-- fabric-resource-loader-v0 3.0.5+c47b9d4373
+[08:30:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/.minecraft/server/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[08:30:35] [main/INFO]: Compatibility level set to JAVA_21
+[08:30:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[08:30:46] [main/INFO]: [voicechat] Compatibility version 18
+[08:30:46] [main/INFO]: [voicechat] Loading plugins
+[08:30:46] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[08:30:46] [main/INFO]: [voicechat] Initializing plugins
+[08:30:46] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[08:30:51] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:30:52] [Worker-Main-3/ERROR]: Couldn't parse data file 'armor_statues:random_pose' from 'armor_statues:loot_table/random_pose.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage': net.minecraft.class_52@6a644c12]
+[08:30:53] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[08:30:53] [main/INFO]: Loaded 1337 recipes
+[08:30:53] [main/ERROR]: Failed to load function armor_statues:trigger/random_pose
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / armor_statues:random_pose] at position 116: ...andom_pose<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / armor_statues:random_pose] at position 116: ...andom_pose<--[HERE]
+	at knot/net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[08:30:53] [main/INFO]: Loaded 1458 advancements
+[08:30:53] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.117 ms
+[08:30:53] [Server thread/INFO]: Starting minecraft server version 1.21.2
+[08:30:53] [Server thread/INFO]: Loading properties
+[08:30:53] [Server thread/INFO]: Default game type: SURVIVAL
+[08:30:53] [Server thread/INFO]: Generating keypair
+[08:30:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:30:53] [Server thread/INFO]: Using default channel type
+[08:30:54] [Server thread/INFO]: Preparing level "./worlds/Minecraftttt"
+[08:30:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:30:55] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[08:30:55] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[08:30:55] [Worker-Main-8/INFO]: Preparing spawn area: 53%
+[08:30:55] [Server thread/INFO]: Time elapsed: 1174 ms
+[08:30:55] [Server thread/INFO]: Done (1.618s)! For help, type "help"
+[08:30:55] [Server thread/INFO]: Starting GS4 status listener
+[08:30:55] [Server thread/INFO]: Thread Query Listener started
+[08:30:55] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[08:30:55] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[08:31:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[09:34:22] [User Authenticator #1/INFO]: UUID of player swagmasterjames is 79297bcd-962f-4594-9588-5e5a5349c509
+[09:34:40] [Netty Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at knot/net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[09:34:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@143387d8[id=79297bcd-962f-4594-9588-5e5a5349c509,name=swagmasterjames,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczMjAzNzY2NDYzNywKICAicHJvZmlsZUlkIiA6ICI3OTI5N2JjZDk2MmY0NTk0OTU4ODVlNWE1MzQ5YzUwOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzd2FnbWFzdGVyamFtZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM3ODI5NzhkZjg2M2U4NzIwNWQ5OTUwNDFkNjhjOTI3YTVjMzQxNDdlMmExOWY1YmJjMWU4ZjBlZWE4OWZiZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9, signature=kNhiED8xLgLNPQocNyo8qLlVbnsv1zQ78LfHQyGC85IjDYVpsEHrJVzBo4dZgSMNmx+WkT5FT8L+MJ+ZtlMVIx9wxOpeS9HgbZeMhpMlLebioARdfaeFGNCUljUEJWrYyScVspIjBIcKQl/Q35DzJw+znHXkZAHt41hQa2VLOO6f5td/2Wgp/+mDNwLww4Oo2FKmlodT6ZpWCGmmsc8vTpaGDdbHCbDhLGeJsNjLR/lMXVbluQ0CUjqZnHPtAqSwtUp/oxN+1ssFGRbz3BXmD0UGQkggZ/xMRoBsrT/TrAdktxYnQRJ1cV46JLxtuHkDaj5ATcpPUcTbSMP478icTqV8MPlKfFiJySqp5CJs42qODFAmCLSmyrZE8FpsP7PeZb+XoVhn8D8rVBkO+OKGqZ5lv+z/ikT5XkmGK/5ET8miLJJc07GYbH4webUFJPAcWR+FS+iaaqaYpO8BTzbZeBlteCoiecapr1YCcr6d20og0wcDXfggsIWDPn4oPhthZudiA1RRLONvGo+cJx8lhlVjpsTV6/Tv/+tkqi/qDryceHgyioQvAfjwiP7oUkKp7ydgN2+A/0AdNXkZem69cApPMQuJ+ONYMA3b6u64nImW4ORYsLU7ggDnWZvz8C1S3SJfJrePzGxxGrbKDWeoF/WvnF86JhgKgYM5kS/4oi4=]]}] lost connection: Disconnected
