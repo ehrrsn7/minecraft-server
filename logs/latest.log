@@ -43,3 +43,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11
 [21:26:59] [Server thread/INFO]: swagmasterjames joined the game
 [21:32:31] [Server thread/INFO]: swagmasterjames lost connection: Disconnected
 [21:32:31] [Server thread/INFO]: swagmasterjames left the game
+[21:33:31] [Server thread/INFO]: Server empty for 60 seconds, pausing

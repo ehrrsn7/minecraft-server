@@ -25,3 +25,6 @@
 
 # 'always up' - if running on windows, this will help run the server as a service (todo: find out a way to run .bat files as a service using something like the SC command on windows AND save the config here)
 !/AlwaysUp_Installer.exe
+
+# ignore these
+logs/latest.log
