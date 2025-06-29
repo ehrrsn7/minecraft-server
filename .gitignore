@@ -26,5 +26,30 @@
 # 'always up' - if running on windows, this will help run the server as a service (todo: find out a way to run .bat files as a service using something like the SC command on windows AND save the config here)
 !/AlwaysUp_Installer.exe
 
+mod-update-script
+mod-update-script/archive_check.integration.test.js
+mod-update-script/archive_check.js
+mod-update-script/archive_check.test.js
+mod-update-script/download_utils.js
+mod-update-script/downloadFile.test.js
+mod-update-script/getGitlabReleaseInfo.test.js
+mod-update-script/mod_api_utils.js
+mod-update-script/mods_config.json
+mod-update-script/package.json
+mod-update-script/README.md
+mod-update-script/sort_into_groups.js
+mod-update-script/test_fork_logic.test.js
+mod-update-script/TODO.md
+mod-update-script/update_mods.js
+mod-update-script/update_mods.test.js
+mod-update-script/versionCheck.js
+mod-update-script/versionCheck.test.js
+
+# Added fabric installer instructions
+!install-fabric
+!install-fabric/fabric-installer.jar
+!install-fabric/README.md
+!install-fabric/upgrade-server.sh
+
 # ignore these
-logs/latest.log
+!logs/latest.log
