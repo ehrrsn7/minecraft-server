@@ -30,7 +30,10 @@ echo ""
 echo "✅ Installation complete!"
 echo ""
 echo "🧪 Testing server startup..."
-timeout 20 ./start.sh || true
+timeout 20 ./start.sh || {
+    echo "❌ Server startup failed. Please check the logs above."
+    exit 1
+}
 
 echo ""
 echo "🎯 Next steps:"
