@@ -39,3 +39,4 @@ mods/**/*.jar*
 mods/**/*.zip*
 mods/**/*.gz*
 **/**/**/*.tmp
+config/Discord-Integration.toml
