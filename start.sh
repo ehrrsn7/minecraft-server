@@ -1,3 +1,2 @@
 #!/bin/bash
-FLAGS="-Djava.net.preferIPv6Addresses=true -Djava.net.preferIPv4Stack=false"
-java -Xmx8G -jar fabric-server-launch.jar nogui;
+java --enable-native-access=ALL-UNNAMED -Xmx8G -Xms4G -jar fabric-server-launch.jar nogui

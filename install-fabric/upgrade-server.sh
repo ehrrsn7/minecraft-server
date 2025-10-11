@@ -4,8 +4,8 @@
 
 set -e
 
-MINECRAFT_VERSION=${1:-"1.21.6"}
-FABRIC_LOADER_VERSION=${2:-"0.16.14"}
+MINECRAFT_VERSION=${1:-"1.21.9"}
+FABRIC_LOADER_VERSION=${2:-"0.17.2"}
 
 echo "🚀 Starting Fabric Server Upgrade"
 echo "📦 Minecraft: $MINECRAFT_VERSION"
@@ -21,7 +21,7 @@ sleep 3
 
 # Run Fabric installer
 echo "📥 Installing Fabric..."
-java -jar install-fabric/fabric-installer.jar server \
+java -jar fabric-installer.jar server \
     -mcversion "$MINECRAFT_VERSION" \
     -loader "$FABRIC_LOADER_VERSION" \
     -downloadMinecraft

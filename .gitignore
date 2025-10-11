@@ -53,3 +53,5 @@ mod-update-script/versionCheck.test.js
 
 # ignore these
 !logs/latest.log
+usercache.json
+logs/latest.log
