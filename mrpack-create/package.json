@@ -1,0 +1,22 @@
+{
+   "name": "modrinth-pack-from-follows",
+   "version": "1.0.0",
+   "description": "A script to create a Modrinth .mrpack file from your followed projects.",
+   "main": "create-modpack.js",
+   "type": "commonjs",
+   "scripts": {
+      "start": "node create-modpack.js"
+   },
+   "keywords": [
+      "modrinth",
+      "minecraft",
+      "modpack"
+   ],
+   "author": "",
+   "license": "MIT",
+   "dependencies": {
+      "dotenv": "^16.4.5",
+      "jszip": "^3.10.1",
+      "node-fetch": "^2.7.0"
+   }
+}

@@ -1,57 +1,41 @@
-# ignore all
-*
+# --- Log Files ---
+# Ignore compressed log archives and the latest log file.
+# The `logs` directory itself is not ignored, preserving its structure.
+/logs/*.gz
+/logs/latest.log
 
-# important directories (** if all files should be included, don't do this if directory generally contains binaries/non-critical files)
-!/config/**
-!/crash-reports
-!/libraries
-!/loaders
-!/logs
-!/mods
-!/versions
-!/worlds
+# --- Caches and User Data ---
+# Ignore user-specific data, caches, and uploaded files.
+/usercache.json
+/cache/
+/audioplayer_uploads/
 
-# important file types
-!*.json
-!*.properties
+# --- Binaries & Installers ---
+# Ignore downloaded binaries and installers that aren't part of the core server setup.
+# The main server.jar and fabric-installer.jar are tracked by git.
+/cloudflared-linux-amd64.deb
+/libraries
+/worlds
+/install-fabric
 
-# important files
-!/.gitignore
-!/eula.txt
-!/minecraft-server.service
-!/server.jar
-!/start.bat
-!/start.sh
+# --- Script-Related Files ---
+# Ignore dependencies for the NodeJS mod update script.
+/mod-update-script/node_modules/
+/mod-update-script/package-lock.json
 
-# 'always up' - if running on windows, this will help run the server as a service (todo: find out a way to run .bat files as a service using something like the SC command on windows AND save the config here)
-!/AlwaysUp_Installer.exe
+# Ignore generated reports from scripts. A wildcard is used to catch future reports.
+/mod-update-script/mods_not_downloaded_*.csv
 
-mod-update-script
-mod-update-script/archive_check.integration.test.js
-mod-update-script/archive_check.js
-mod-update-script/archive_check.test.js
-mod-update-script/download_utils.js
-mod-update-script/downloadFile.test.js
-mod-update-script/getGitlabReleaseInfo.test.js
-mod-update-script/mod_api_utils.js
-mod-update-script/mods_config.json
-mod-update-script/package.json
-mod-update-script/README.md
-mod-update-script/sort_into_groups.js
-mod-update-script/test_fork_logic.test.js
-mod-update-script/TODO.md
-mod-update-script/update_mods.js
-mod-update-script/update_mods.test.js
-mod-update-script/versionCheck.js
-mod-update-script/versionCheck.test.js
-
-# Added fabric installer instructions
-!install-fabric
-!install-fabric/fabric-installer.jar
-!install-fabric/README.md
-!install-fabric/upgrade-server.sh
-
-# ignore these
-!logs/latest.log
-usercache.json
-logs/latest.log
+# --- Metadata & Temporary Files ---
+.vscode
+.fabric
+crash-reports
+DiscordIntegration-Data
+fabricloader.log
+versions
+output
+mods/*.jar*
+mods/**/*.jar*
+mods/**/*.zip*
+mods/**/*.gz*
+**/**/**/*.tmp

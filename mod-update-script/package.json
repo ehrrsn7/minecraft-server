@@ -1,0 +1,28 @@
+{
+  "name": "mod-update-script",
+  "version": "1.0.0",
+  "main": "update_mods.js",
+  "type": "module",
+  "scripts": {
+    "start": "node update_mods.js",
+    "test": "vitest run",
+    "dry-run": "node update_mods.js --dry-run",
+    "update-config": "node update_mods.js --update-config",
+    "help": "node update_mods.js --help",
+    "download-mod": "node update_mods.js --download-mod",
+    "list-versions": "node list_latest_versions.js",
+    "list-versions-json": "node list_latest_versions.js --format=json",
+    "list-versions-csv": "node list_latest_versions.js --format=csv"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "node-fetch": "^3.3.2"
+  }
+}
